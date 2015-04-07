@@ -5,5 +5,5 @@ var Person = function(config){
 };
 
 Person.prototype.work = function(){
-	return this.name + ' is working.';
+	return this.name + ' is working.'; // In the tutorial this is incorrectly show as - return this.name   ' + is working.';
 };
